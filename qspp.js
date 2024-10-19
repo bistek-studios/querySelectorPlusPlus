@@ -31,3 +31,5 @@ qspp.querySelector = (selector) => {
 };
 
 console.log("Using querySelectorPlusPlus version " + qspp.version);
+	return self;
+};
