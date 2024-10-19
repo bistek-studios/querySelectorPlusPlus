@@ -1,6 +1,6 @@
 let qspp = {};
 
-qspp.version = "1.0.1rc2";
+qspp.version = "1.0.1";
 
 qspp.querySelector = (selector) => {
 	let self = {};
@@ -30,4 +30,5 @@ qspp.querySelector = (selector) => {
 	return self;
 };
 
+console.log("%cquery selector++", "color: #0FF; font-size: 30px; -webkit-text-stroke: 1px black; font-weight:bold")
 console.log("Using querySelectorPlusPlus version " + qspp.version);
