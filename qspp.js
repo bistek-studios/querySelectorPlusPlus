@@ -18,6 +18,9 @@ qspp.querySelector = (selector) => {
 	self.show = () => {
 		self.element.style.display = "block";
 	};
+	self.showinline = () => {
+		self.element.style.display = "inline";
+	};
 	self.hide = () => {
 		self.element.style.display = "none";
 	};
