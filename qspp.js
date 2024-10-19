@@ -1,6 +1,6 @@
 let qspp = {};
 
-qspp.version = "1.0.1"
+qspp.version = "1.0.1rc1";
 
 qspp.querySelector = (selector) => {
 	let self = {};
@@ -21,7 +21,13 @@ qspp.querySelector = (selector) => {
 	self.hide = () => {
 		self.element.style.display = "none";
 	};
+	self.getattr = (attr) => {
+		return self.element.getAttribute(attr);
+	};
+	self.setattr = (attr,value) => {
+		return self.element.setAttribute(attr,value);
+	};
 	return self;
 };
 
-console.log("Using querySelectorPlusPlus version " + qspp.version)
+console.log("Using querySelectorPlusPlus version " + qspp.version);
