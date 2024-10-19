@@ -1,5 +1,7 @@
 let qspp = {};
 
+qspp.version = "1.0.1"
+
 qspp.querySelector = (selector) => {
 	let self = {};
 	self.selector = selector;
@@ -21,3 +23,5 @@ qspp.querySelector = (selector) => {
 	};
 	return self;
 };
+
+console.log("Using querySelectorPlusPlus version " + qspp.version)
