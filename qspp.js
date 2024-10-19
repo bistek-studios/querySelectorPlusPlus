@@ -1,6 +1,6 @@
 let qspp = {};
 
-qspp.version = "1.0.1rc1";
+qspp.version = "1.0.1rc2";
 
 qspp.querySelector = (selector) => {
 	let self = {};
